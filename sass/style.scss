@@ -1,12 +1,16 @@
+//DESIGNED & DEVELOPED by FREEHTML5.co
+//Website: http://freehtml5.co/
+//Twitter: http://twitter.com/fh5co
+//Facebook: http://facebook.com/fh5co
 $font-primary: 'Roboto Slab', Arial, sans-serif;
 $font-secondary: 'Roboto', Arial, sans-serif;
 // Overrides
-$grid-gutter-width: 40px !default; 
+$grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
 $brand-primary: #52d3aa !default;
-$brand-secondary: #1fb5f6 !default; 
+$brand-secondary: #1fb5f6 !default;
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -49,16 +53,16 @@ $form-group-margin-bottom: 30px !default;
           border-radius: $radius;
 }
 @mixin flex() {
-	display: -webkit-box;      
-  	display: -moz-box;         
-  	display: -ms-flexbox;      
-  	display: -webkit-flex;     
-  	display: flex;             
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap; 
-	-moz-flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 }
 
 @font-face {
@@ -73,7 +77,7 @@ $form-group-margin-bottom: 30px !default;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -85,10 +89,10 @@ $form-group-margin-bottom: 30px !default;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
-// Import 
+// Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
@@ -97,7 +101,7 @@ $form-group-margin-bottom: 30px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -156,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 }
 
-#fh5co-header {
+#header {
 	padding-top: 70px;
 	padding-bottom: 0;
 	margin-bottom: 80px;
@@ -175,11 +179,11 @@ h1, h2, h3, h4, h5, h6 {
 		padding: 0;
 		margin: 0;
 	}
-	.fh5co-navbar-brand{
+	.navbar-brand{
 		width: 100%;
 		margin: 0;
 
-		.fh5co-logo {
+		.logo {
 			width: 52px;
 			height: 30px;
 			padding: 0;
@@ -206,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 			}
 
 			&:first-child{
-				margin-left: 0;	
+				margin-left: 0;
 			}
 			a {
 				font-family: $font-primary;
@@ -298,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 #work{
-	.fh5co-grid{
+	.grid{
 		height: 625px;
 		background-size: cover;
 		margin-bottom: 30px;
@@ -316,7 +320,7 @@ h1, h2, h3, h4, h5, h6 {
 			right: 20px;
 			background: rgba(255,255,255,.9);
 			opacity: 0;
-			
+
 			.work-title{
 				position: absolute;
 				top: 50%;
@@ -367,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 						height: 100%;
 						margin-bottom: 30px;
 					}
-					
+
 				}
 
 				@media screen and (max-width: $screen-xs) {
@@ -401,9 +405,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer{
-	
+
 	// padding-bottom: 5em;
-	
+
 	p {
 		line-height: 1;
 	}
@@ -421,7 +425,7 @@ footer{
 		}
 	}
 	p {
-		margin-bottom: 0;	
+		margin-bottom: 0;
 	}
 	small {
 		text-transform: uppercase;
@@ -488,7 +492,7 @@ footer{
 }
 .form-group {
 	@media screen and (max-width: $screen-sm) {
-		margin-bottom: 0px;	
+		margin-bottom: 0px;
 	}
 }
 
